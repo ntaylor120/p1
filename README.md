@@ -17,7 +17,7 @@ This page is intended to be a placeholder for all of the subsequent projects for
 
 ## Demo
 
-I have not yet been assigned to a section, so I dont' have any demo information at this time.
+According to my class notes, no demo is required for the P1 assignment.
 
 ## Details for the teaching team
 
