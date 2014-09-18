@@ -29,7 +29,8 @@ No login required.
 
 Bootstrap:  [getbootstrap.com] (http://getbootstrap.com)
 
-Template:  [Jumbotraon] (http://getbootstrap.com/examples/jumbotron/)
+Template:  [Jumbotron] (http://getbootstrap.com/examples/jumbotron/)
+
 
 Images:  all images used on my site are owned by me.
 
