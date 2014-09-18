@@ -12,3 +12,10 @@
   background-color: #f8f8f8;
 }
 
+/* add photo to background of site */
+
+.bg {
+	background-image:url(../images/bg.jpg);
+	background-repeat:no-repeat
+}
+
