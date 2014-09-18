@@ -15,12 +15,17 @@
     
 
     <!-- Custom styles for this template -->
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="css">
     <link href="css/extra-bootstrap.css" rel="stylesheet" type="text/css">
     <!--<link href="css/jumbotron-narrow.css" rel="stylesheet" type="text/css">-->
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="js/ie-emulation-modes-warning.js"></script>
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]
+    <script src="js/ie-emulation-modes-warning.js"></script>-->
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+   <script src="js/bootstrap.js"></script>
+    
+    
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -50,17 +55,22 @@
     
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="container">
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
     <div class="jumbotron">
-      <div class="container">
-      <div class="col-xs-6 pull-left">
+     <div class="row">
+     	<div class="col-xs-6 pull-left"> 
+            
         <h3>A portfolio of work assignments for</h3>
         <h3>CSCI E-15: Dynamic Web Applications.</H3>
         <H3>Student:  Nancy Taylor</H3>
         </div>
-        <div class="col-xs-4 pull-right">
-          <img src="images/nrt.jpg" alt="photo of developer">
-          </div>
-        <!--<p><a class="btn btn-sm btn-primary btn-lg" role="button">Learn more &raquo;</a></p> -->
+        <div class="col-xs-3 pull-right">
+          <img src="images/nrt.jpg" class="img-responsive" alt="photo of developer">
+        </div>
+        </div> 
       </div>
     </div>
 
@@ -101,6 +111,7 @@
         </div>
         
         
+        
      <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3">
           <h3>Project 4</h3>
           <p>This is a placeholder for Project 4.  This project is not yet live, and the buttons below do not work at this time.</p>
@@ -110,8 +121,91 @@
         </div>
         
       </div>
+      </div>
+      
 
       <hr>
+      <!--  rats - my expirament with the accordion feature is awesome... except it's not working!
+      <div class="panel-group" id="accordion">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+          Who I am and what I do
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="panel-body">
+        I am employed by the State of Nebraska and am  in transition between my current job of Exchange System Administrator and my preferred job of Website Developer.  </p>
+<p>I also own my own company (NRTainment Images) and offer my services as website developer/photographer/videographer.  My clients include several entertainers, a recording studio, a sailing association and a liquor import company.  As a retired performer, I have marketed myself to entertainers, because I understand their requirements for websites, and social media.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+          Why I am taking this class
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse">
+      <div class="panel-body">
+        I am taking this class for two reasons:
+<ul>
+<li>I wish to learn more about dynamic web applications in order to apply that knowledge in my job</li>
+<li>This course fulfills the requirement for the Web Development Certificate, and the Masters Program</li>
+I have not yet decided whether or not I will pursue the masters program, my initial goal is the certificate, but wish to keep my options open.
+</ul>
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">My programming experience</a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse">
+      <div class="panel-body">
+        I have dealt mostly with simple html/css, and some javascript. I took a php programming class through a local community college two years ago, but have not had much opportunity to apply what I learned (and frankly, I've forgotten most of it). I did take the java programming course last semester, and am now applying that in my day job, using java and java server faces to work on existing websites for the state of Nebraska.
+      </div>
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+          My platform
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFour" class="panel-collapse collapse">
+      <div class="panel-body">
+        I am working on a Macintosh platform, I have an iMac computer and am using OS X 10.9.4
+      </div>
+    </div>
+  </div>
+  
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+          Other
+        </a>
+      </h4>
+    </div>
+    <div id="collapseFive" class="panel-collapse collapse">
+      <div class="panel-body">
+       I am very much looking forward to this class, as my recording studio client is in the process of purchasing a liquor import company, his new website will require php for the landing page (in order to verify that the user is over 21 years of age), and for a special section he wants to create for people to be able to log in and get special deals on his product.
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
+
       <div class="bg-ltGray"> 
       <div class="row-fluid">
       <div class="container-fluid">
@@ -159,6 +253,7 @@
 </div>
 </div>
 </div>
+
 
 <p>&nbsp;</p>
 <p>&nbsp;</p>
