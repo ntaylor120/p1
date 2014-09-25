@@ -1,4 +1,5 @@
 # Project 1
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/ntaylor120/p1?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Nancy Taylor
 
